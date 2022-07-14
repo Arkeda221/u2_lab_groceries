@@ -6,10 +6,21 @@ import Grocery from './components/Grocery'
 const App = () => {
   const [list, setList] = useState(groceryArray)
 
+  function compare(a, b) {
+    if (a.item < b.item) {
+      return -1
+    }
+    if (a.item > b.item) {
+      return 1
+    }
+    return 0
+  }
+
+  list.sort(compare)
+
   const handleClick = (index) => {
     if (groceryArray.isPurchased === true) {
       let newList = [...list]
-      newList.sort()
       newList.splice(index, 1)
       setList(newList)
     }
