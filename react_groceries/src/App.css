@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+html{
+  background: url('https://i.imgur.com/LEARHcq.jpg') no-repeat center center fixed;
+
+  background-size: cover;
+
+
+
+}
+
+.remove{
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 10%;
+}
+
+.purchased{
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 10%;
+}
+
+
+
+.purchased:focus{
+  background-color: greenyellow;
+}
+
+.main{
+ background: url('https://i.imgur.com/Ir6S0o5.jpg?1') no-repeat center center fixed;
+  border: solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 10px;
+}
+

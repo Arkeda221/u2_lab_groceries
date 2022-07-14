@@ -1,0 +1,25 @@
+[
+  {
+    "item": "energy drink",
+    "brand": "celsius",
+    "units": "12 pack",
+    "quantity": 2,
+    "isPurchased": false
+  },
+
+  {
+    "item": "ramen noodles",
+    "brand": "Ichiran",
+    "units": "5 pack",
+    "quantity": 3,
+    "isPurchased": false
+  },
+
+  {
+    "item": "chips",
+    "brand": "Lays",
+    "units": "13 ounces",
+    "quantity": 1,
+    "isPurchased": false
+  }
+]
